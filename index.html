@@ -32,6 +32,10 @@
     <p>組員:林祐生 黃心柏 張元旭 陳靖廷 康明宗</p>		
 </section>
 	
+<section>
+    <p>目錄</p>
+    <p>研究動機</p>		
+</section>
 
 <section>
 <section>
@@ -55,9 +59,190 @@
 </section>
 </section>
 <section>
-    <h1>作業規劃</h1>
-    <p>影片內容</p>
-    <a href="https://www.youtube.com/watch?v=9uq3w6JJS00">Zero to hero with Python</a>
+
+<section>
+    <h5>研究機器</h5>
+    <p>3D列印機</p>
+
+    <img width="350" height="500" data-src="files/printer.jpg" >
+    </section>
+    <section>
+    <h2>簡介</h2>
+    <p>在使用3D列印機時，常常會需要長久的等待，例如:製作一個大型的物件，或者有很多複雜的小零件參雜，往往需要大量的時間去製作，途中列印完成的時間點，幾乎都落在凌晨，沒辦法讓機台持續列印下去，因為工件會附著在平台上，並沒有辦法直接操控電腦讓他進行列印動作，目前需仰賴人力，將其剷除，才可繼續進行列印動作</p>
+
+   <!--  <img width="750" height="420" data-src="files/kmolprint_video.png"> -->
+    </a>
+    </section>
+    
+
+</section>
+<section>
+<section>
+    <h3>要會控制需要</h3>
+    <p>1.程式語言</p>
+    <p>2.網際網路</p>
+    <p>3.數學</p>
+
+    <img width="200" height="250" data-src="files/question.jpg" >
+    </section>
+    <section>
+    <h3>python3</h3>
+    <p>我們使用python3先進行串列通訊和Arduino溝通</p>
+
+     <img width="350" height="420" data-src="files/arduino.jpg"> 
+    </a>
+    </section>
+    <section>
+    <h3>感測資料</h3>
+     <img width="450" height="350" data-src="files/tempure.jpg"> 
+    </a>
+    </section>
+    
+    <section>
+    <h3>回傳資料</h3>
+     <img width="500" height="420" data-src="files/data.jpg"> 
+    </a>
+    </section>
+    
+
+</section>
+<section>
+<section>
+    <h4>網際網路架構</h4>
+    <p>1.server (Nginx)</p>
+    <p>2.framework(Flask)</p>
+
+    <img width="420" height="300" data-src="files/internet.jpg" >
+    </section>
+    <section>
+    <h3>Nginx</h3>
+    <p>nginx在linux作業系統(例:ubuntu 14.04 raspbane)下效率相當高，以及可以大量平行運算等特點，在我們的嵌入式系統，採用Nginx當作代理伺服器</p>
+
+     <img width="350" height="200" data-src="files/nginx.png"> 
+    </a>
+    </section>
+    <section>
+    <h3>Flask</h3>
+    <p>Flask為一種微型網際網路架構，微型不代表整的web都需要用同一個python文件(當然也是可以使用同一個)，也不代表他是缺乏功能，只擁有基本的網路架構，在微型framework指的是核心簡單易於擴充，一切都可以看使用者，需要怎樣的功能，就安裝不一樣的模組，可針對我們需要使用的模組做延伸，因此我們選用Flask當框架使用。</p>
+     <img width="400" height="200" data-src="files/flask.png"> 
+    </a>
+    </section>
+    
+
+    
+
+</section>
+<section>
+<section>
+    <h3>數學</h3>
+    <p>1.手臂的設計</p>
+    <p>2.手臂位置的推導</p>
+    <p>3.手臂位置的模擬</p>
+
+    <img width="200" height="250" data-src="files/question.jpg" >
+    </section>
+    <section>
+    <h3>手臂設計</h3>
+    <p>計算需要路徑</p>
+
+     <img width="500" height="420" data-src="files/arm1.jpg"> 
+    </a>
+    </section>
+    <section>
+    
+     <img width="800" height="500" data-src="files/arm2.png"> 
+    </a>
+    </section>
+    
+    <section>
+     <img width="800" height="500" data-src="files/arm3.png"> 
+    </a>
+    </section>
+    
+    <section>
+    <h3>手臂逆向推導(未完成)</h3>
+    
+  <!--  $$\theta_T = cos^{-1}(\frac{x^2+y^2-L1^2-L2^2}{2\times L1\times L2})$$
+
+    $$\theta_n = cos^{-1}(\frac{x}{\sqrt{x^2+y^2}}))$$
+
+    $$\theta_\alpha = cos^{-1}(\frac{x^2+y^2+L1^2-L2^2}{2\times L1\times \sqrt{x^2+y^2}})$$
+
+    <h6>大軸旋轉的角度</h6>
+
+    $$\theta_2 = 90 - (\theta_n + \theta_\alpha)$$
+
+    <h6>小軸旋轉的角度</h6>
+
+    $$\theta_3 = \theta_T - \theta_2$$
+    未完成
+    -->
+
+    </a>
+    </section>  
+    
+    <section>
+    <h3>V-rep模擬</h3>
+     <img width="800" height="500" data-src="files/vrep_1.png"> 
+    </a>
+    </section>
+    
+    <section>
+    <h3>V-rep模擬</h3>
+     <img width="800" height="500" data-src="files/vrep_2.png"> 
+    </a>
+    </section>
+    
+    <section>
+    <h3>V-rep模擬影片</h3>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/92xOdKHc8do" frameborder="0" allowfullscreen></iframe>
+    </a>
+    </section>
+    
+    <section>
+    <h3>計算可移動到的點</h3>
+         <img width="800" height="350" data-src="files/compute.jpg">
+    </a>
+    </section>
+    
+    <section>
+    <h3>列印實體</h3>
+         <img width="250" height="450" data-src="files/arm.jpg">
+    </a>
+    </section>
+    
+    <section>
+    <h3>撰寫控制的程式</h3>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/dc3XOIvRjto" frameborder="0" allowfullscreen></iframe>
+    </a>
+    </section>
+    
+
+
+</section>
+<section>
+<section>
+    <h4>網頁部分</h4>
+
+
+    <img width="420" height="300" data-src="files/internet.jpg" >
+    </section>
+    <section>
+    <h3>Nginx</h3>
+    <p>網頁的架構</p>
+
+     <img width="650" height="400" data-src="files/kmolprint.png"> 
+    </a>
+    </section>
+    <section>
+    <h3>縮時錄影</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4sK0pn37HAQ" frameborder="0" allowfullscreen></iframe>
+    </a>
+    </section>
+    
+
+    
+
 </section>
 </div>
       <!-- 一個 section 表示一頁簡報 -->

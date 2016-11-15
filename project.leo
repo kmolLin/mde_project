@@ -17,9 +17,14 @@
 <v t="leo.20161115143124.4" a="E"><vh>body</vh>
 <v t="leo.20161115143124.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20161115143124.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20161115143719.1"><vh>test</vh></v>
-<v t="leo.20161115143736.1"><vh>test1</vh></v>
-<v t="leo.20161115143753.1"><vh>test2</vh></v>
+<v t="leo.20161115143719.1"><vh>主頁</vh></v>
+<v t="leo.20161115152542.1"><vh>目錄1</vh></v>
+<v t="leo.20161115143736.1"><vh>動機</vh></v>
+<v t="leo.20161115143753.1"><vh>3D列印機</vh></v>
+<v t="leo.20161115154241.1"><vh>要先會的工具</vh></v>
+<v t="leo.20161115155840.1"><vh>網際網路</vh></v>
+<v t="leo.20161115155718.1"><vh>數學</vh></v>
+<v t="leo.20161115170736.1"><vh>實際使用</vh></v>
 </v>
 </v>
 <v t="leo.20161115143124.16"><vh>script</vh></v>
@@ -137,9 +142,194 @@
 &lt;/section&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20161115143753.1">&lt;section&gt;
-    &lt;h1&gt;作業規劃&lt;/h1&gt;
-    &lt;p&gt;影片內容&lt;/p&gt;
-    &lt;a href="https://www.youtube.com/watch?v=9uq3w6JJS00"&gt;Zero to hero with Python&lt;/a&gt;
+
+&lt;section&gt;
+    &lt;h5&gt;研究機器&lt;/h5&gt;
+    &lt;p&gt;3D列印機&lt;/p&gt;
+
+    &lt;img width="350" height="500" data-src="files/printer.jpg" &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h2&gt;簡介&lt;/h2&gt;
+    &lt;p&gt;在使用3D列印機時，常常會需要長久的等待，例如:製作一個大型的物件，或者有很多複雜的小零件參雜，往往需要大量的時間去製作，途中列印完成的時間點，幾乎都落在凌晨，沒辦法讓機台持續列印下去，因為工件會附著在平台上，並沒有辦法直接操控電腦讓他進行列印動作，目前需仰賴人力，將其剷除，才可繼續進行列印動作&lt;/p&gt;
+
+   &lt;!--  &lt;img width="750" height="420" data-src="files/kmolprint_video.png"&gt; --&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+
+&lt;/section&gt;</t>
+<t tx="leo.20161115152542.1">&lt;section&gt;
+    &lt;p&gt;目錄&lt;/p&gt;
+    &lt;p&gt;研究動機&lt;/p&gt;		
+&lt;/section&gt;</t>
+<t tx="leo.20161115154241.1">&lt;section&gt;
+&lt;section&gt;
+    &lt;h3&gt;要會控制需要&lt;/h3&gt;
+    &lt;p&gt;1.程式語言&lt;/p&gt;
+    &lt;p&gt;2.網際網路&lt;/p&gt;
+    &lt;p&gt;3.數學&lt;/p&gt;
+
+    &lt;img width="200" height="250" data-src="files/question.jpg" &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;python3&lt;/h3&gt;
+    &lt;p&gt;我們使用python3先進行串列通訊和Arduino溝通&lt;/p&gt;
+
+     &lt;img width="350" height="420" data-src="files/arduino.jpg"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;感測資料&lt;/h3&gt;
+     &lt;img width="450" height="350" data-src="files/tempure.jpg"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;回傳資料&lt;/h3&gt;
+     &lt;img width="500" height="420" data-src="files/data.jpg"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+
+&lt;/section&gt;</t>
+<t tx="leo.20161115155718.1">&lt;section&gt;
+&lt;section&gt;
+    &lt;h3&gt;數學&lt;/h3&gt;
+    &lt;p&gt;1.手臂的設計&lt;/p&gt;
+    &lt;p&gt;2.手臂位置的推導&lt;/p&gt;
+    &lt;p&gt;3.手臂位置的模擬&lt;/p&gt;
+
+    &lt;img width="200" height="250" data-src="files/question.jpg" &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;手臂設計&lt;/h3&gt;
+    &lt;p&gt;計算需要路徑&lt;/p&gt;
+
+     &lt;img width="500" height="420" data-src="files/arm1.jpg"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    
+     &lt;img width="800" height="500" data-src="files/arm2.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+     &lt;img width="800" height="500" data-src="files/arm3.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;手臂逆向推導(未完成)&lt;/h3&gt;
+    
+  &lt;!--  $$\theta_T = cos^{-1}(\frac{x^2+y^2-L1^2-L2^2}{2\times L1\times L2})$$
+
+    $$\theta_n = cos^{-1}(\frac{x}{\sqrt{x^2+y^2}}))$$
+
+    $$\theta_\alpha = cos^{-1}(\frac{x^2+y^2+L1^2-L2^2}{2\times L1\times \sqrt{x^2+y^2}})$$
+
+    &lt;h6&gt;大軸旋轉的角度&lt;/h6&gt;
+
+    $$\theta_2 = 90 - (\theta_n + \theta_\alpha)$$
+
+    &lt;h6&gt;小軸旋轉的角度&lt;/h6&gt;
+
+    $$\theta_3 = \theta_T - \theta_2$$
+    未完成
+    --&gt;
+
+    &lt;/a&gt;
+    &lt;/section&gt;  
+    
+    &lt;section&gt;
+    &lt;h3&gt;V-rep模擬&lt;/h3&gt;
+     &lt;img width="800" height="500" data-src="files/vrep_1.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;V-rep模擬&lt;/h3&gt;
+     &lt;img width="800" height="500" data-src="files/vrep_2.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;V-rep模擬影片&lt;/h3&gt;
+         &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/92xOdKHc8do" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;計算可移動到的點&lt;/h3&gt;
+         &lt;img width="800" height="350" data-src="files/compute.jpg"&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;列印實體&lt;/h3&gt;
+         &lt;img width="250" height="450" data-src="files/arm.jpg"&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;h3&gt;撰寫控制的程式&lt;/h3&gt;
+         &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dc3XOIvRjto" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+
+
+&lt;/section&gt;</t>
+<t tx="leo.20161115155840.1">&lt;section&gt;
+&lt;section&gt;
+    &lt;h4&gt;網際網路架構&lt;/h4&gt;
+    &lt;p&gt;1.server (Nginx)&lt;/p&gt;
+    &lt;p&gt;2.framework(Flask)&lt;/p&gt;
+
+    &lt;img width="420" height="300" data-src="files/internet.jpg" &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;Nginx&lt;/h3&gt;
+    &lt;p&gt;nginx在linux作業系統(例:ubuntu 14.04 raspbane)下效率相當高，以及可以大量平行運算等特點，在我們的嵌入式系統，採用Nginx當作代理伺服器&lt;/p&gt;
+
+     &lt;img width="350" height="200" data-src="files/nginx.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;Flask&lt;/h3&gt;
+    &lt;p&gt;Flask為一種微型網際網路架構，微型不代表整的web都需要用同一個python文件(當然也是可以使用同一個)，也不代表他是缺乏功能，只擁有基本的網路架構，在微型framework指的是核心簡單易於擴充，一切都可以看使用者，需要怎樣的功能，就安裝不一樣的模組，可針對我們需要使用的模組做延伸，因此我們選用Flask當框架使用。&lt;/p&gt;
+     &lt;img width="400" height="200" data-src="files/flask.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+
+    
+
+&lt;/section&gt;</t>
+<t tx="leo.20161115170736.1">&lt;section&gt;
+&lt;section&gt;
+    &lt;h4&gt;網頁部分&lt;/h4&gt;
+
+
+    &lt;img width="420" height="300" data-src="files/internet.jpg" &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;Nginx&lt;/h3&gt;
+    &lt;p&gt;網頁的架構&lt;/p&gt;
+
+     &lt;img width="650" height="400" data-src="files/kmolprint.png"&gt; 
+    &lt;/a&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+    &lt;h3&gt;縮時錄影&lt;/h3&gt;
+    &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4sK0pn37HAQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/a&gt;
+    &lt;/section&gt;
+    
+
+    
+
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
