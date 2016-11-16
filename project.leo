@@ -116,7 +116,7 @@
 &lt;section&gt;
     &lt;h1&gt;專題報告&lt;/h1&gt;
     &lt;p&gt;主題:物連網與自動化&lt;/p&gt;
-    &lt;p&gt;組員:林祐生 黃心柏 張元旭 陳靖廷 康明宗&lt;/p&gt;		
+    &lt;p&gt;組員:林祐生 黃心柏 張元旭 陳靖廷 康民宗&lt;/p&gt;		
 &lt;/section&gt;
 	</t>
 <t tx="leo.20161115143736.1">
